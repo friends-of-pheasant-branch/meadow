@@ -41,10 +41,22 @@
 }
 
 .split-wrap {
-  position: relative;
   background: $tds-dk-blue;
   color: $white;
+  height: 100%;
+  .tbl {
+    display: block;
+    @include phones {
+      display: table;
+      height: inherit;
+    }
+  }
   article {
+    display: block;
+    @include tablets {
+      display: table-cell;
+      vertical-align: middle;
+    }
     h1 {
       font-size: 2.5em;
     }
