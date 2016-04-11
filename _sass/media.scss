@@ -46,7 +46,7 @@
   height: 100%;
   .tbl {
     display: block;
-    @include phones {
+    @include tablets {
       display: table;
       height: inherit;
     }
