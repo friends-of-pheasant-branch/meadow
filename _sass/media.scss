@@ -46,13 +46,17 @@
   height: 100%;
   .tbl {
     display: block;
-    @include tablets {
+    @include phones {
       display: table;
       height: inherit;
     }
   }
   article {
     display: block;
+    @include phones {
+      display: table-cell;
+      vertical-align: top;
+    }
     @include tablets {
       display: table-cell;
       vertical-align: middle;
