@@ -45,3 +45,18 @@ article {
     line-break: strict;
   }
 }
+
+.tdsvp-callout.tdsvp-center-align {
+  margin: 16px 0 24px 0;
+  padding: 16px 0;
+  border-bottom: 1px solid $primary;
+  border-top: 1px solid $primary;
+  .lead {
+    font-size: 1.9em;
+  }
+  .lead::first-line {
+    font-size: 2.25em;
+    color: $primary;
+    font-weight: 700;
+  }
+}
