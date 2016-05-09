@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+    <div class="cloak"></div>
+    <div class="top-bar"></div>
+    {% include nav.html %}
+    {% if page.header %}
+      {% include header.html %}
+    {% endif %}
+      {{ content }}
+    {% include props.html %}
+    {% include footer.html %}
+    {% include scripts.html %}
+  </body>
+</html>
