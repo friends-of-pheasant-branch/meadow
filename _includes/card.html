@@ -1,0 +1,22 @@
+<tr>
+  {% for data in site.data.card %}
+  <th>
+    <table class="tdsvp-card table {{ data.class }}">
+      <tr>
+        <td>
+          <div class="tdsvp-card-image">
+            <img class="img-responsive" src="{{ site.baseurl }}/public/img/{{ data.image }}" alt="{{ data.alt }}">
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <h4>
+            {{ data.heading }}
+          </h4>
+        </td>
+      </tr>
+    </table>
+  </th>
+  {% endfor %}
+</tr>

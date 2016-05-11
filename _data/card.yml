@@ -1,0 +1,20 @@
+- class: front-card
+  image: video-card.jpg
+  heading: Tired of feeling tethered to your desk?
+  cta: Get A Quote
+  desc: Standard
+  pkg: 1
+
+- class: front-card
+  image: video-card.jpg
+  heading: Tired of msflkdskf
+  cta: Get A Quote
+  desc: Premium
+  pkg: 2
+
+- class: front-card
+  image: video-card.jpg
+  heading: Tired of msflkdskf
+  cta: Get A Quote
+  desc: Pro
+  pkg: 3

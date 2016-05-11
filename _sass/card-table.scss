@@ -1,0 +1,28 @@
+.tdsvp-card.table {
+  border: 1px solid $lines;
+  position: relative;
+  z-index: 500;
+  background: $white;
+  @include phones {
+    margin-bottom: 0px;
+  }
+
+  tr, td {
+    border: none;
+    text-align: center;
+    color: $text;
+    h4 {
+      font-size: 18px;
+    }
+  }
+  .tdsvp-card-image {
+    max-height: 150px;
+    overflow: hidden;
+
+    img {
+      opacity: 1;
+      transition: all 0.2s ease-in-out;
+      width: 100%;
+    }
+  }
+}

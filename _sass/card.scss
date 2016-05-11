@@ -1,0 +1,37 @@
+.tdsvp-cards.table {
+  margin: 0 auto;
+  width: 85%;
+  max-width: 350px;
+  min-width: 200px;
+  @include phones {
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+  }
+  font-family: $copy;
+  background: $white;
+  color: $text;
+  overflow: hidden;
+  >tbody>tr>td,
+  >tbody>tr>th {
+   border: 0px solid transparent;
+  }
+
+  th {
+    display: block;
+  }
+
+  th, td {
+    text-align: left;
+    padding: 8px 12px 0 12px;
+    @include phones {
+      display: table-cell;
+      &:first-child {
+        padding-left: 0;
+      }
+      &:last-child {
+        padding-right: 0;
+      }
+    }
+  }
+}
