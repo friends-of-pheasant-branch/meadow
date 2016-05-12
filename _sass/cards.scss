@@ -33,8 +33,6 @@
   transition: all 0.2s ease-in-out;
   display: flex;
   flex-direction: column;
-  align-items: stretch;
-  justify-content: space-between;
 
   .card-image {
     background-color: $card-image-hover-color;
@@ -55,7 +53,7 @@
     border-bottom: $card-border;
     border-radius: $base-border-radius $base-border-radius 0 0;
     line-height: 1.5em;
-
+    padding-left: 12px;
     transition: all 0.2s ease-in-out;
     height: 64px;
     max-height: 64px;
@@ -70,6 +68,7 @@
     font-size: 0.9em;
     font-family: $copy;
     line-height: 1.5em;
+    flex: 1;
     padding: ($base-spacing / 2) ($base-spacing / 2);
 
     p {
@@ -98,5 +97,5 @@
   }
 }
 .card-footer {
-
+flex: none;
 }
