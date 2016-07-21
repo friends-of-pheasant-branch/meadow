@@ -44,6 +44,9 @@ article {
   font-family: $copy;
   .lead {
     font-size: 1.75em;
+    &::first-line {
+      font-size: 2.5em;
+    }
   }
 }
 
