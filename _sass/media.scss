@@ -1,9 +1,11 @@
 .logo-wrap {
-  width: 98px;
   img {
-    display: block;
-    width: 64px;
-    height: 64px;
+    width: 42px;
+    height: 42px;
+    @include phones {
+      width: 64px;
+      height: 64px;
+    }
   }
   .fre-navbar .navbar-header & {
     display: block !important;

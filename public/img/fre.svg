@@ -1,17 +1,48 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   version="1.1"
-   id="svg2"
-   viewBox="0 0 417.14285 417.14285"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="117.72698mm"
    height="117.72698mm"
-   width="117.72698mm">
+   viewBox="0 0 417.14285 417.14285"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="fre.svg"
+   inkscape:export-filename="/home/mike/Sites/meadow/public/img/fre.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
   <defs
      id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="136.6294"
+     inkscape:cy="254.88793"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="709"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -25,37 +56,31 @@
     </rdf:RDF>
   </metadata>
   <g
-     transform="translate(-142.85713,-306.64793)"
-     id="layer1">
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-142.85713,-306.64793)">
     <g
-       transform="matrix(0.9760274,0,0,0.9760274,8.4246573,12.351149)"
-       id="g4187">
+       id="g4154">
       <circle
-         style="fill:#19388a;fill-opacity:1;stroke:none;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none"
-         id="path4136"
-         cx="351.42856"
+         r="203.57143"
          cy="515.21936"
-         r="208.57143" />
+         cx="351.42856"
+         id="path4136"
+         style="fill:#19388a;fill-opacity:1;stroke:none;stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none" />
       <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:232.00001526px;line-height:125%;font-family:'Helvetica LT Std';-inkscape-font-specification:'Helvetica LT Std, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#04acfa;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         x="183.45805"
-         y="597.92737"
-         id="text4138"><tspan
+         sodipodi:linespacing="125%"
+         id="text4138"
+         y="595.94464"
+         x="208.69809"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:226.43836975px;line-height:125%;font-family:'Helvetica LT Std';-inkscape-font-specification:'Helvetica LT Std, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#04acfa;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           y="595.94464"
+           x="208.69809"
            id="tspan4140"
-           x="183.45805"
-           y="597.92737">fr<tspan
-   style="fill:#ffffff"
-   id="tspan4160">e</tspan></tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:44.66666794px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#04acfa;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         x="393"
-         y="445.02887"
-         id="text4162"><tspan
-           id="tspan4164"
-           x="393"
-           y="445.02887"></tspan></text>
+           sodipodi:role="line">fr<tspan
+   id="tspan4160"
+   style="fill:#ffffff">e</tspan></tspan></text>
     </g>
   </g>
 </svg>
