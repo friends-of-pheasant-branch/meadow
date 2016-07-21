@@ -1,12 +1,12 @@
-//tds-error-message.less
+//fre-error-message.less
 
 // Main message set up.
 // types are determined by sub classes below
-.tds-error-msg {
+.fre-error-msg {
   @extend .alert;
   padding: 16px 50px 16px 16px;
   line-height: 24px;
-  font-family: $tds-font-family;
+  font-family: $fre-font-family;
   font-size: 14px;
   font-weight: 400;
   border-radius: 0px;
@@ -23,14 +23,14 @@
       text-decoration: none;
     }
   }
-  .tds-error-msg-description {
+  .fre-error-msg-description {
     float: left;
     position: relative;
     min-height: 1px;
     padding-right: 15px;
   }
-  .tds-error-msg-description .fa,
-  .tds-error-msg-description span {
+  .fre-error-msg-description .fa,
+  .fre-error-msg-description span {
     float: left;
     display: table;
     margin-right: 15px;
@@ -39,7 +39,7 @@
   > .fa {
     width: 25px;
   }
-  .tds-error-msg-description {
+  .fre-error-msg-description {
     //width: 90%;
   }
   // error items
@@ -59,8 +59,8 @@
 
 // Product callout messages design
 .prod-callout {
-  @extend .tds-error-msg;
-  @extend .tds-error-info;
+  @extend .fre-error-msg;
+  @extend .fre-error-info;
   @include make-sm-column-offset(1);
   @include make-xs-column-offset(0);
   @include make-sm-column(7);
@@ -73,13 +73,13 @@
 // *Note* Border added here to inherit the color type
 
 // Red = critical
-.tds-error-critical {
+.fre-error-critical {
   @extend .alert-danger;
-  border-left: 3px solid $tds-red !important;
+  border-left: 3px solid $fre-red !important;
 }
 
 // Yellow = warning
-.tds-error-warning {
+.fre-error-warning {
   @extend .alert-warning;
   color: #353535 !important;
   border-left: 3px solid #ffce00 !important;
@@ -90,32 +90,32 @@
 }
 
 // Green = success
-.tds-error-success {
+.fre-error-success {
   @extend .alert-success;
   color: #353535 !important;
-  border-left: 3px solid $tds-green !important;
+  border-left: 3px solid $fre-green !important;
   .fa {
     font-size: 21px;
-    color: $tds-green;
+    color: $fre-green;
   }
 }
 
 // Blue = info
-.tds-error-info {
+.fre-error-info {
   @extend .alert-info;
 }
 
 // bundle error extender
 .bundle-error {
-  @extend .tds-error-msg;
-  @extend .tds-error-critical;
+  @extend .fre-error-msg;
+  @extend .fre-error-critical;
   border: 0px solid transparent;
   &:before {
     @extend .fa;
     content: "\f06a";
     margin-right: 20px;
     font: normal normal normal 14px/1 FontAwesome;
-    color: $tds-red;
+    color: $fre-red;
   }
 }
 
@@ -125,7 +125,7 @@
 // ===============================================
 
 // positioning when img is placed *above* alert-info
-.tds-pb-logo {
+.fre-pb-logo {
   position: relative;
   top: 18px;
   text-align: center;
@@ -148,6 +148,6 @@
 // above this.
 // ===============================================
 
-.tds-alert-status {
-  background-color: $tds-lt-bluegray;
+.fre-alert-status {
+  background-color: $fre-lt-bluegray;
 }

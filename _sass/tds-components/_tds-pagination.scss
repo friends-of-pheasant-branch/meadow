@@ -1,10 +1,10 @@
-// tds-pagination
+// fre-pagination
 
 // search info message
 // TODO || need to move search to own less file
 .multiPathSearch .resultText {
-  @extend .tds-error-msg;
-  @extend .tds-error-info;
+  @extend .fre-error-msg;
+  @extend .fre-error-info;
 }
 // search links see above
 .multiPathSearch > a {
@@ -17,9 +17,9 @@
   margin: 24px 0px 40px 0px;
   padding-bottom: 24px;
   padding-left: 0;
-  font-family: $tds-font-family;
-  border-top: 3px solid $tds-lt-bluegray;
-  border-bottom: 1px solid $tds-lt-gray;
+  font-family: $fre-font-family;
+  border-top: 3px solid $fre-lt-bluegray;
+  border-bottom: 1px solid $fre-lt-gray;
 }
 // Page name
 .search-current-page {
@@ -38,7 +38,7 @@
 // Current & hover
 .current-page,
 .search-results-pagination a:hover {
-  background-color: $tds-lt-bluegray;
+  background-color: $fre-lt-bluegray;
 }
 
 // search results page layout
@@ -50,7 +50,7 @@
     color: #333;
     margin-bottom: 40px;
     &:hover {
-      color: $tds-dk-blue;
+      color: $fre-dk-blue;
     }
   }
 }

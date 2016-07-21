@@ -1,4 +1,4 @@
-//tds-pagebanner.less
+//fre-pagebanner.less
 
 #page-banner{border-top:solid 3px #e3e3e3;border-bottom:solid 3px #25acf2}
 
@@ -10,7 +10,7 @@
 }
 
 #banner-overlay {
-    background: url(../../../content/dam/tdstelecom/images/banners/banner-overlay.png) left top no-repeat;
+    background: url(../../../content/dam/fretelecom/images/banners/banner-overlay.png) left top no-repeat;
     background-size: 100% 100%;
 }
 
@@ -34,7 +34,7 @@
     margin: 0;
 }
 
-.tds-page-banner {
+.fre-page-banner {
   margin-bottom: 30px;
 }
 .banner-image {
@@ -42,16 +42,16 @@
 }
 // L3 page banners with image on the right
 .bundleSubheader h3 {
-  font-family: $tds-font-family;
+  font-family: $fre-font-family;
   font-weight: normal;
   font-size: 2.25em;
   line-height: 1.1em;
-  color: $tds-dk-blue;
+  color: $fre-dk-blue;
 }
-.bundle_container .tds-page-banner {
+.bundle_container .fre-page-banner {
   max-width: 960px;
-  &.tds-sub-banner {
-    border-bottom: 2px solid $tds-dk-blue; // border just for sub-banners
+  &.fre-sub-banner {
+    border-bottom: 2px solid $fre-dk-blue; // border just for sub-banners
   }
 }
 .bundleSubheader {
@@ -62,6 +62,6 @@
 // Full banner no images
 .banner-content-full.banner-content {
   width: 100%;
-  border-left: 3px solid $tds-lt-gray;
-  border-right: 3px solid $tds-lt-gray;
+  border-left: 3px solid $fre-lt-gray;
+  border-right: 3px solid $fre-lt-gray;
 }

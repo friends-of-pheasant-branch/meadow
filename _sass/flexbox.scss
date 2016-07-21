@@ -12,7 +12,7 @@
   $flex-box-color: transparentize($base-font-color, 0.3);
   $flex-box-top-colors:
     $primary,
-    $tds-dk-blue,
+    $fre-dk-blue,
     $orange;
 
   @include clearfix;
@@ -48,7 +48,7 @@
       }
     }
 
-    img.tdsvp-card-icon {
+    img.fre-card-icon {
       display: block;
       height: 3em;
       margin: 0 auto 1em;

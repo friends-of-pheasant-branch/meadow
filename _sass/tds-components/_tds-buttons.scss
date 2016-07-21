@@ -1,13 +1,13 @@
-// tds-buttons.less
+// fre-buttons.less
 
 
-// Main TDS button
+// Main fre button
 // ------------------
 .gallery-btn {
   color: #fff !important;
-  @include button-variant($tds-white, $tds-dk-blue, transparent);
+  @include button-variant($fre-white, $fre-dk-blue, transparent);
   padding: 6px 14px 6px 12px !important;
-  font-family: $tds-font-family;
+  font-family: $fre-font-family;
   text-align: left;
   text-transform: capitalize;
   a {
@@ -62,7 +62,7 @@
 // added `#addtocart` ID for those that need to be green we missed.
 // =============================================================================
 .gallery-btn.btn-green,
-.tds-btn-green,
+.fre-btn-green,
 button#addtocart {
   @extend .btn-success;
 }
@@ -70,18 +70,18 @@ button#addtocart {
 // ===== Gray button ===========================================================
 // gray button, blue text
 // =============================================================================
-.tds-btn-gray {
-  color: $tds-lt-blue !important;
-  background: $tds-ltr-gray;
+.fre-btn-gray {
+  color: $fre-lt-blue !important;
+  background: $fre-ltr-gray;
 }
 // gray close button
-td .line-item-actions .tds-btn-gray {
+td .line-item-actions .fre-btn-gray {
   border-radius: 15px;
   padding: 0px 9px 3px 8px;
 }
 
-.tds-btn-lt-blue {
-  background: $tds-lt-blue;
+.fre-btn-lt-blue {
+  background: $fre-lt-blue;
 }
 
 // button link style
@@ -91,9 +91,9 @@ td .line-item-actions .tds-btn-gray {
   @extend .btn;
   @extend .btn-link;
   font-family: 'ITC Avant Garde Gothic W01';
-  color: $tds-green !important;
+  color: $fre-green !important;
   &:hover {
-    color: $tds-green;
+    color: $fre-green;
   }
 }
 // arrow icon
@@ -176,7 +176,7 @@ td .line-item-actions .tds-btn-gray {
 }
 
 // button dropdown rollover fix - border-bottom bumps things down
-.tds-select-btn {
+.fre-select-btn {
   display: block;
   min-height: 40px;
 }

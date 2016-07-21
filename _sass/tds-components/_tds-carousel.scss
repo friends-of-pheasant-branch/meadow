@@ -1,4 +1,4 @@
-// tds-carousel.less
+// fre-carousel.less
 
 // default height for carousel
 #slide-overlay {
@@ -35,7 +35,7 @@
   }
   // hover state
   &:hover {
-    background: $tds-dk-blue;
+    background: $fre-dk-blue;
   }
 }
 // carousel indicators
@@ -43,5 +43,5 @@
   background-color: #A3AFD0;
 }
 .carousel-indicators .active {
-  background-color: $tds-dk-blue;
+  background-color: $fre-dk-blue;
 }

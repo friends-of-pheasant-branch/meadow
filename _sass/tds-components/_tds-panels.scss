@@ -1,4 +1,4 @@
-// tds-panels.less
+// fre-panels.less
 
 $panel-border-radius: 0px;
 $panel-default-border: #ccc;
@@ -6,7 +6,7 @@ $panel-default-border: #ccc;
 $border-radius-base: 0px;
 
 // bootstrap panel changes
-.tds-panel {
+.fre-panel {
   @extend .panel;
   @extend .panel-default;
   margin-bottom: 20px;
@@ -21,23 +21,23 @@ $border-radius-base: 0px;
 // ===== Shopping cart/checkout panels =========================================
 
 // h3 Line Items titles
-.tds-panel>.line-item-title {
+.fre-panel>.line-item-title {
   overflow: hidden;
   margin-top: 5px;
   margin-bottom: 26px;
   padding-left: 0px;
-  font-family: $tds-font-family;
-  color: $tds-dk-blue;
+  font-family: $fre-font-family;
+  color: $fre-dk-blue;
 }
 // h2 line items `.panel-header` color
-.tds-panel>.line-item-title h2 {
-  color: $tds-lt-blue;
+.fre-panel>.line-item-title h2 {
+  color: $fre-lt-blue;
 }
 // h3 line items header color
-.tds-panel>.line-item-title h3 {
+.fre-panel>.line-item-title h3 {
   margin-top: 0px;
-  color: $tds-dk-blue;
-  font-family: $tds-font-family;
+  color: $fre-dk-blue;
+  font-family: $fre-font-family;
 }
 
 
@@ -68,48 +68,48 @@ $border-radius-base: 0px;
   }
 }
 
-.tds-contact-panel,
-.tds-support-panel {
+.fre-contact-panel,
+.fre-support-panel {
   padding: 10px 32px 32px;
   height: 175px !important;
   width: 100%;
-  font-family: $tds-font-family;
+  font-family: $fre-font-family;
   font-weight: 200;
   background: #f5f5f5;
   border-color: transparent;
 }
 // hide on mobile
-.tds-contact-panel {
+.fre-contact-panel {
   // .visible-sm;
   // .visible-md;
   // .visible-lg;
 }
 // expland on mobile
-.tds-support-panel {
+.fre-support-panel {
   //.make-md-column(6) !important;
   //.make-sm-column(6) !important;
   //.make-xs-column(12);
 }
-.tds-contact-panel h3,
-.tds-support-panel h3 {
+.fre-contact-panel h3,
+.fre-support-panel h3 {
   margin-bottom: 24px;
   padding-bottom: 10px;
   font-size: 20px;
   font-weight: 500;
-  color: $tds-lt-blue;
-  border-bottom: 2px solid $tds-dk-blue;
+  color: $fre-lt-blue;
+  border-bottom: 2px solid $fre-dk-blue;
 }
 // support icons fix
-.tds-panel.tds-contact-panel a {
+.fre-panel.fre-contact-panel a {
   display: inline-block;
   color: #555555;
-  font-family: $tds-font-family;
+  font-family: $fre-font-family;
   font-size: 0.875em;
   margin-right: 24px;
   &:hover {
     text-decoration: none;
     span {
-      color: $tds-dk-blue;
+      color: $fre-dk-blue;
     }
   }
 }
@@ -121,7 +121,7 @@ $border-radius-base: 0px;
 }
 
 /* ===== Prod-items =======================================
- * TDS Styles begin here
+ * fre Styles begin here
  * ======================================================== */
 
 
@@ -141,14 +141,14 @@ $border-radius-base: 0px;
 }
 
 .prod-items > .prod-contents,
-.prod-items.tds-plus-packs .prod-contents {
+.prod-items.fre-plus-packs .prod-contents {
   float: right;
   margin-bottom: 20px;
   padding: 20px;
   width: 90%;
   border: 3px solid #ccc !important;
   &.prod-highlight {
-    background: $tds-lt-gray;
+    background: $fre-lt-gray;
   }
 }
 // Panel components wrap
@@ -156,7 +156,7 @@ $border-radius-base: 0px;
 // on a page like in the bundles page.
 // this is for wrapping them when they just have one section.
 // TODO || Should go back and make them all do this
-.tds-panel-items {
+.fre-panel-items {
   float: left;
   width: 100%;
   position: relative;
@@ -166,8 +166,8 @@ $border-radius-base: 0px;
 
 // Hack panel set up for TV Locations info on `tv.html`.
 // This was writen by hand in a text editor component and this fixes the default
-// width on that component when next to the `.tdstvcomponent` class.
+// width on that component when next to the `.fretvcomponent` class.
 // TO DO || get a component built for this and remove this hacky hack.
-.tdstvcomponent + .text.parbase.section {
+.fretvcomponent + .text.parbase.section {
   width: 100%;
 }

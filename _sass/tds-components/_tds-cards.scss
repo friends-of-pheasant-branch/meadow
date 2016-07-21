@@ -1,7 +1,7 @@
-// tds-cards.less
+// fre-cards.less
 
 // Legacy styles
-// tds-card-component.less
+// fre-card-component.less
 
 /*
 ==================================================
@@ -15,43 +15,43 @@
 }
 
 .product_internet {
-  background-image:url(/content/dam/tdstelecom/images/products/icons-product_internet.svg);
+  background-image:url(/content/dam/fretelecom/images/products/icons-product_internet.svg);
   background-repeat: no-repeat;
   background-size: contain;
 }
 
 .product_tv {
-  background-image:url(/content/dam/tdstelecom/images/products/icons-product_tv.svg);
+  background-image:url(/content/dam/fretelecom/images/products/icons-product_tv.svg);
   background-repeat: no-repeat;
   background-size: contain;
 }
 
 .product_phone {
-  background-image:url(/content/dam/tdstelecom/images/products/icons-product_phone.svg);
+  background-image:url(/content/dam/fretelecom/images/products/icons-product_phone.svg);
   background-repeat: no-repeat;
   background-size: contain;
 }
 
 .product_bundle3 {
-  background-image:url(/content/dam/tdstelecom/images/products/icons-product_bundle3.svg);
+  background-image:url(/content/dam/fretelecom/images/products/icons-product_bundle3.svg);
   background-repeat: no-repeat;
   background-size: contain;
 }
 
 .product_bundle2-int-tv {
-  background-image:url(/content/dam/tdstelecom/images/products/icons-product_bundle2-int-tv.svg);
+  background-image:url(/content/dam/fretelecom/images/products/icons-product_bundle2-int-tv.svg);
   background-repeat: no-repeat;
   background-size: contain;
 }
 
 .product_bundle2-int-phone {
-  background-image:url(/content/dam/tdstelecom/images/products/icons-product_bundle2-int-phone.svg);
+  background-image:url(/content/dam/fretelecom/images/products/icons-product_bundle2-int-phone.svg);
   background-repeat: no-repeat;
   background-size: contain;
 }
 
 .product_bundle2-tv-phone {
-  background-image:url(/content/dam/tdstelecom/images/products/icons-product_bundle2-tv-phone.svg);
+  background-image:url(/content/dam/fretelecom/images/products/icons-product_bundle2-tv-phone.svg);
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -162,7 +162,7 @@ div.shopbiz-btn {
     margin: 0 auto;
     padding: 0 1em 0 2.5em;
     height: 2.75em;
-    background: #0c8fd0 url(/content/dam/tdstelecom/biz-icon.svg) 1em center no-repeat;
+    background: #0c8fd0 url(/content/dam/fretelecom/biz-icon.svg) 1em center no-repeat;
     -webkit-background-size:   1em 1em;
     background-size:  1em 1em;
 }
@@ -189,7 +189,7 @@ div.shopbiz-btn > a {
     line-height: 2.75em;
     text-align: left;
     font-family:'ITC Avant Garde Gothic W01';
-    background:url(/content/dam/tdstelecom/images/ui/arrows/right-arrow-white.svg) no-repeat;
+    background:url(/content/dam/fretelecom/images/ui/arrows/right-arrow-white.svg) no-repeat;
     background-position: right center;
     -webkit-background-size:   10px 15px;
     background-size:  10px 15px;
@@ -297,10 +297,10 @@ div.shopbiz-btn:hover {
 
 // New styles
 h2.gallery-title-4c {
-  font-family: $tds-font-family;
+  font-family: $fre-font-family;
   font-size: 1.5em;
   line-height: 1.25em;
-  color: $tds-dk-blue;
+  color: $fre-dk-blue;
   text-align: center;
   display: table;
   width: 100%;
@@ -320,7 +320,7 @@ h2.gallery-title-4c {
 }
 
 // single card layout
-.tds-single-card li {
+.fre-single-card li {
   width: 100%;
 }
 
@@ -336,7 +336,7 @@ h2.gallery-title-4c {
       display: block;
       overflow: hidden;
       margin-bottom: 36px;
-      border-bottom: 1px solid $tds-lt-gray;
+      border-bottom: 1px solid $fre-lt-gray;
     }
     // main header & sub header
     h2.card-main-title,
@@ -379,15 +379,15 @@ h2.gallery-title-4c {
   }
 }
 
-// When an alternate price offer appears in a well in the `.tds-card`
-// other well attributes are in the <tds-well.less> file.
-.gallery-grid li > div .tds-well {
+// When an alternate price offer appears in a well in the `.fre-card`
+// other well attributes are in the <fre-well.less> file.
+.gallery-grid li > div .fre-well {
   margin: 15px -15px -15px -15px;
 }
 
-// tds-single cards buttons were written wrong. Here's a quick fix.
+// fre-single cards buttons were written wrong. Here's a quick fix.
 // TO DO || go back and fix this
-// .tds-single-card form[name="checkout"] button {
+// .fre-single-card form[name="checkout"] button {
 //   .gallery-btn-link;
 // }
 
@@ -403,14 +403,14 @@ h2.gallery-title-4c {
   padding-left: 0px !important;
 }
 
-// ===== TDS Card ==============================================================
-// Basic structure of the tds cards based on the design types
+// ===== fre Card ==============================================================
+// Basic structure of the fre cards based on the design types
 // =============================================================================
 
 // h2.Basic example
 // ----------------
-// By default, all the {{.tds-card}} does is apply some basic border and padding to contain some content.
-.tds-card {
+// By default, all the {{.fre-card}} does is apply some basic border and padding to contain some content.
+.fre-card {
   position: relative;
   min-height: 1px;
   float: left;
@@ -418,19 +418,19 @@ h2.gallery-title-4c {
   margin-bottom: 20px;
   padding: 15px;
   background-color: #fff;
-  border: 3px solid $tds-ltr-gray;
+  border: 3px solid $fre-ltr-gray;
 }
 // h2.With Gray Background
 // -----------------------
-// Easily add a gray background to your {{.tds-card}} with {{.tds-card-gray}}.
-.tds-card-gray {
-  background-color: $tds-ltr-gray;
+// Easily add a gray background to your {{.fre-card}} with {{.fre-card-gray}}.
+.fre-card-gray {
+  background-color: $fre-ltr-gray;
 }
 
 // *temp float fix* - TODO || need to find a way to fix this so the float it's
 // referencing isn't done directly on the text.parbase components. These exist
 // in the current website css
-.tds-card .text.parbase.section {
+.fre-card .text.parbase.section {
   float: none;
   padding: 0px;
 }
